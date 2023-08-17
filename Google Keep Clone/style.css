@@ -17,7 +17,7 @@ body {
 .heading {
   width: 100vw;
   height: 5.5rem;
-  background-color: #f1c40f;
+  background-color:#f1c12e ;
   color: #282936;
   box-shadow: 0px 10px 16px rgb(248, 247, 247);
 }
@@ -44,7 +44,6 @@ body {
   cursor: pointer;
 }
 
-/* <!-- SUbSCRIBE THAPA TECHNICAL YOUTUBE CHANNEL https://www.youtube.com/thapatechnical --> */
 
 button {
   position: relative;
@@ -89,7 +88,7 @@ button.learn-more .circle .icon.arrow {
   background: none;
 }
 
-/* <!-- SUbSCRIBE THAPA TECHNICAL YOUTUBE CHANNEL https://www.youtube.com/thapatechnical --> */
+
 
 button.learn-more .circle .icon.arrow::before {
   position: absolute;

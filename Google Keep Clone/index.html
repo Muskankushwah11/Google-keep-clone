@@ -11,6 +11,7 @@
     />
     <title>Note Ninja </title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images - Copy/fav icom.png">
   </head>
   <body>
     <div class="heading">
@@ -23,9 +24,22 @@
           <span class="icon arrow"></span>
         </span>
         <span class="button-text">Add note</span>
+
+      </button>
+      <button class="learn-more" onclick="Redirect();" /">
+        <span class="circle" aria-hidden="true">
+          <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">To do List</span>
+
       </button>
     </div>
    
     <script src="script.js"></script>
+    <script type="text/javascript">
+      function Redirect() {
+         location.href="./todo.html";
+      }
+   </script>
   </body>
 </html>
